@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">SB-Bauteilkatalog</string>
+
+    <string-array name="ifcType">
+        <item></item>
+        <item>IfcBeam</item>
+        <item>IfcColumn</item>
+        <item>IfcCovering</item>
+        <item>IfcDoor</item>
+        <item>IfcFooting</item>
+        <item>IfcRailing</item>
+        <item>IfcRoof</item>
+        <item>IfcSlab</item>
+        <item>IfcSpace</item>
+        <item>IfcStair</item>
+        <item>IfcWindow</item>
+    </string-array>
+
+    <string-array name="Lp">
+        <item></item>
+        <item>LP2/3</item>
+        <item>LP4/5</item>
+    </string-array>
+
+    <string-array name="Bauteil_nach_DIN_276">
+        <item></item>
+        <item>Aussenwand, Innenwand</item>
+        <item>Aussenwand, Innenwand tragend</item>
+        <item>Innenwand nichttragend</item>
+        <item>Decken-, Dachkonstruktion</item>
+        <item>Decken-, Dachkonstruktion, Belaege</item>
+        <item>Deckenbelag</item>
+        <item>Deckenbekleidung</item>
+        <item>Stuetzen tragend</item>
+        <item>Dachbelag</item>
+        <item>Fundament</item>
+        <item>Deckenkonstruktion Traeger</item>
+        <item>Deckenkonstruktion Balkone</item>
+        <item>Deckenkonstruktion Treppe</item>
+        <item>Aussentueren</item>
+        <item>Aussenfenster</item>
+        <item>Sonstiges (Schlosser, Gelaender)</item>
+        <item>Raeume</item>
+        <item>Aussenwandbekleidung Aussen</item>
+    </string-array>
+
+    <string-array name="AutorInformation">
+        <item></item>
+        <item>Architekt</item>
+        <item>Statiker</item>
+        <item>FP Brandschutz</item>
+        <item>FP GEG</item>
+        <item>FP Schallschutz</item>
+        <item>Architekt/ FP GEG</item>
+    </string-array>
+</resources>

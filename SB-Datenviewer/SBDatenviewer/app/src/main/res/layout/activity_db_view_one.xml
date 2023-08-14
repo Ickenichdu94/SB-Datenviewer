@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#094F83">
+
+    <EditText
+        android:id="@+id/dbView1"
+        android:layout_width="384dp"
+        android:layout_height="542dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white"
+        android:inputType="textMultiLine"
+        android:minLines="6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/zurückBtn"
+        android:layout_width="162dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="50dp"
+        android:text="neue Suche"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dbView1" />
+</androidx.constraintlayout.widget.ConstraintLayout>
